@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/gordonm0253.github.io/',  // relative paths so assets load correctly
   plugins: [
     react(),
     mode === 'development' &&
