@@ -138,7 +138,7 @@ const Contact = () => {
             </CardContent>
           </Card>
           <div className = "flex items-center justify-center">
-            <img src = {snoopyGIF}/>
+            <img src = {snoopyGIF} alt = {snoopyGIF}/>
           </div>
         </div>
       </div>
